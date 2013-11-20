@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+t('$1')
+]]></content>
+	<tabTrigger>t</tabTrigger>
+	<scope>text.html.ruby</scope>
+	<description>insert a i18n call</description>
+</snippet>

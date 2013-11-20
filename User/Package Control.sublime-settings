@@ -1,0 +1,20 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"ApplySyntax",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Git",
+		"GotoOpenFile",
+		"InactivePanes",
+		"MacTerminal",
+		"MoveTab",
+		"OpenFileList",
+		"RubyTest",
+		"ScopeHunter",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel"
+	]
+}

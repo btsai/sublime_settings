@@ -1,0 +1,4 @@
+[
+    {"command": "clone_file"},
+    {"command": "new_pane"}
+]

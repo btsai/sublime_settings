@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+t('common.$1')
+]]></content>
+	<tabTrigger>=tc</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>insert a i18n call</description>
+</snippet>

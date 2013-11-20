@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[assert_response(:success)]]></content>
+    <tabTrigger>assuc</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>assert_response(:success)</description>
+</snippet>

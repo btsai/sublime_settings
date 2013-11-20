@@ -1,0 +1,13 @@
+.SyncIgnore
+.SyncID
+.SyncArchive/
+.DS_Store
+PyV8/
+GitRename
+InactivePanes_
+MacTerminal
+MacTerminal
+SublimeCodeIntel
+Package Control.cache/
+Package Control.last-run
+Package Control.system-ca-bundle
