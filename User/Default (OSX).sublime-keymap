@@ -31,12 +31,15 @@
 	{ "keys": ["f8"], "command": "new_pane"},
 	// f9: toggle between panes
 	{ "keys": ["f9"], "command": "focus_neighboring_group" },
+	// Enter to go to file in find in files
+	{ "keys": ["enter"], "command": "find_in_files_goto", "context": [{"key": "selector", "operator": "equal", "operand": "text.find-in-files" }]},
 
 	// SETTINGS
 	{ "keys": ["super+,", "super+s", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences (OSX).sublime-settings"} },
 	{ "keys": ["super+,", "super+s", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
 	{ "keys": ["super+,", "super+k", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Default (OSX).sublime-keymap"} },
 	{ "keys": ["super+,", "super+k", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
+	{ "keys": ["super+,", "super+a"], "command": "open_file", "args": {"file": "${packages}/User/rails_project.sublime-completions"} },
 
 
 	// SELECTION

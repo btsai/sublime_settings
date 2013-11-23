@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[assert_redirected_to(${1:some}_path)]]></content>
+    <tabTrigger>asrd</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>assert_redirected_to</description>
+</snippet>

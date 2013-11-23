@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<%= t('$1') %>
+<%= t('common.$0') %>
 ]]></content>
-	<tabTrigger>=t</tabTrigger>
+	<tabTrigger>=tc</tabTrigger>
 	<scope>text.html.ruby</scope>
-	<description>insert a i18n call</description>
+	<description>Insert a i18n common string</description>
 </snippet>
