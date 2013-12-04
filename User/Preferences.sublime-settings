@@ -18,6 +18,5 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-  // Characters that are considered to separate words - removed the @ so instance variables' '@' are included
-  "word_separators": "./\\()\"'-:,.;<>~!#$%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"'-:,.;<>~!#$%^&*|+=[]{}`~?"
 }
