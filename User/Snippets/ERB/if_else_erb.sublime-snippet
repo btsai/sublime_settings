@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<% if $1 %>
+<% if $1 -%>
 	$2
-<% else %>
+<% else -%>
 	$0
-<% end %>
+<% end -%>
 ]]></content>
 	<tabTrigger>ife</tabTrigger>
 	<scope>text.html.ruby</scope>

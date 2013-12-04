@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<% end -%>
+\$($1).$2
 ]]></content>
-	<tabTrigger>end</tabTrigger>
+	<tabTrigger>$</tabTrigger>
 	<scope>text.html.ruby</scope>
-	<description>ERB end tag</description>
+	<description>$()</description>
 </snippet>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<% elsif ${1:true} %>]]></content>
+    <content><![CDATA[<% elsif ${1:true} -%>]]></content>
     <tabTrigger>elsif</tabTrigger>
     <scope>text.html.ruby</scope>
     <description>ERB elsif tag</description>

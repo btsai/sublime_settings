@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+with_locale(:ja) do
+  $1
+end
+]]></content>
+    <tabTrigger>wloc</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>with_locale(:ja)</description>
+</snippet>

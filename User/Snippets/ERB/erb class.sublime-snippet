@@ -2,7 +2,7 @@
 	<content><![CDATA[
 :class => '$1'
 ]]></content>
-	<tabTrigger>:c</tabTrigger>
+	<tabTrigger>clas</tabTrigger>
 	<scope>text.html.ruby</scope>
-	<description>ERB tags</description>
+	<description>:class => ''</description>
 </snippet>
