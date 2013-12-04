@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assert_nil(${1:condition}${2:,
+  "Should ${3:}"})
+]]></content>
+    <tabTrigger>asn</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>assert_nil(..)</description>
+</snippet>
