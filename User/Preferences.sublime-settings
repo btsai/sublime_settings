@@ -1,20 +1,23 @@
 {
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"color_scheme": "Packages/Monokai/Monokai.btsai.tmTheme",
 	"create_window_at_startup": true,
 	"find_selected_text": true,
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"PHP",
 		"Emmet Css Snippets",
+		"RubyTest",
 		"Vintage",
-		"Emmet",
-		"RubyTest"
+		"Emmet"
 	],
 	"shift_tab_unindent": true,
 	"show_full_path": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+  // Characters that are considered to separate words - removed the @ so instance variables' '@' are included
+  "word_separators": "./\\()\"'-:,.;<>~!#$%^&*|+=[]{}`~?",
 }
