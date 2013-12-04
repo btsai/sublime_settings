@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+assert_difference("${1:something}", ${2:1}${3:,
+  "Should ${4:}"}) do
+  $0
+end
+]]></content>
+  <tabTrigger>asd</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>assert_difference</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[assert_response(${1:\:success})]]></content>
+    <tabTrigger>asre</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>assert_response(..)</description>
+</snippet>
