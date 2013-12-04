@@ -1,4 +1,4 @@
 {
     "completion_type": "nix",
-    "version_control": "",
+    "vcs_management": true,
 }
