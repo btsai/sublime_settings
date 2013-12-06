@@ -40,7 +40,10 @@
 			{ "key": "panel_visible", "operator": "equal", "operand": true }
 		]
 	},
-
+	// fuzzy search text in view
+	{ "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+	// open last closed file
+	{ "keys": ["super+shift+o"], "command": "reopen_last_file" },
 
 	// FILE MANAGMENT
 	{ "keys": ["super+n", "super+n"], "command": "advanced_new_file_new" },
