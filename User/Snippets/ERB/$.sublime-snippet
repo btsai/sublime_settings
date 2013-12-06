@@ -3,6 +3,6 @@
 \$($1).$2
 ]]></content>
 	<tabTrigger>$</tabTrigger>
-	<scope>text.html.ruby</scope>
+  <scope>text.html.ruby, source.js.rails, source.js</scope>
 	<description>$()</description>
 </snippet>

@@ -3,6 +3,6 @@
 <% $0 %>
 ]]></content>
 	<tabTrigger>%%</tabTrigger>
-	<scope>text.html.ruby</scope>
+	<scope>text.html.ruby, source.js.rails</scope>
 	<description><![CDATA[<% %>]]></description>
 </snippet>

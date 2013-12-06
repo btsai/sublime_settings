@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<%= link_to(t('$1'), $2) %>
+<%= link_to(t('$1'), ${2:_path}) %>
 ]]></content>
-	<tabTrigger>lt</tabTrigger>
+	<tabTrigger>lkt</tabTrigger>
 	<scope>text.html.ruby</scope>
-	<description>insert a rails view link_to helper</description>
+	<description>link_to(t(''), path)</description>
 </snippet>

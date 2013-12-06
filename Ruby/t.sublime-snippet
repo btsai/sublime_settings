@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t('$0')
+]]></content>
+  <tabTrigger>tt</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>insert translation</description>
+</snippet>
