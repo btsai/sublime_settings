@@ -69,8 +69,10 @@
 	{ "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 	// ctrl-/: toggle single line comment (same as cmd-/)
 	{ "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
-	// cmd-shift-l:
-
+	// shift-ctrl-{: move line up
+	{ "keys": ["super+shift+{"], "command": "swap_line_up" },
+	// shift-ctrl-}: move line down
+	{ "keys": ["super+shift+}"], "command": "swap_line_down" },
 
 	// NAVIGATION
 	// ctrl-g: scroll window to current cursor, original Goto Line (ctrl-l)
