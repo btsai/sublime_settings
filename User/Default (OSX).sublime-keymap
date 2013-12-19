@@ -13,6 +13,7 @@
 	{ "keys": ["ctrl+z"], "command": "undo" },
 	{ "keys": ["ctrl+shift+z"], "command": "redo" },
 	{ "keys": ["ctrl+y"], "command": "redo_or_repeat" },
+	{ "keys": ["super+shift+w"], "command": "close_all" },
 
 
 	// DIALOG WINDOWS
@@ -50,8 +51,8 @@
 	{ "keys": ["super+k", "super+r"], "command": "advanced_new_file_move" },
 
 	// SETTINGS
-	{ "keys": ["super+,", "super+s", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences (OSX).sublime-settings"} },
-	{ "keys": ["super+,", "super+s", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+	{ "keys": ["super+,", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences (OSX).sublime-settings"} },
+	{ "keys": ["super+,", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
 	{ "keys": ["super+,", "super+k", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Default (OSX).sublime-keymap"} },
 	{ "keys": ["super+,", "super+k", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
 	{ "keys": ["super+,", "super+a"], "command": "open_file", "args": {"file": "${packages}/User/rails_project.sublime-completions"} },
