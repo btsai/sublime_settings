@@ -1,10 +1,10 @@
 <snippet>
 <content><![CDATA[
-do
-  $0
+do ${1:|${2:arg}|}
+  $3
 end
 ]]></content>
   <tabTrigger>do</tabTrigger>
   <scope>source.ruby</scope>
-  <description>do … end</description>
+  <!--description></description-->
 </snippet>

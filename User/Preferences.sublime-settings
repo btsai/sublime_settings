@@ -6,15 +6,19 @@
 	"find_selected_text": true,
 	"font_size": 14,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"AddCursors",
-		"Vintage",
 		"GotoLastEdit",
+		"PHP",
+		"Vintage",
 		"Emmet Css Snippets",
 		"Emmet",
-		"RubyTest",
-		"PHP"
+		"AddCursors"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
 	],
 	"shift_tab_unindent": true,
 	"show_full_path": true,
@@ -22,7 +26,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_separators": "./\\()\"'-:,.;<>~!#$%^&*|+=[]{}`~?",
-	"word_wrap": "false",
-	"highlight_modified_tabs": true,
-	"indent_guide_options": ["draw_active"],
+	"word_wrap": "false"
 }

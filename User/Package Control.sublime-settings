@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"All Autocomplete",
 		"ApplySyntax",
 		"Emmet",
@@ -11,7 +12,6 @@
 		"MacTerminal",
 		"MoveTab",
 		"OpenFileList",
-		"RubyTest",
 		"ScopeHunter",
 		"SCSS",
 		"SideBarEnhancements"

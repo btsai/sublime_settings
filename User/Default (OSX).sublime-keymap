@@ -35,20 +35,22 @@
 	// Enter to go to file in find in files
 	{ "keys": ["enter"], "command": "find_in_files_goto", "context": [{"key": "selector", "operator": "equal", "operand": "text.find-in-files" }]},
 	// hide panel on shift-enter, so i don't have to hit escape when doing find
-	{ "keys": ["shift+enter"], "command": "hide_panel", "args": {"cancel": true},
-		"context":
-		[
-			{ "key": "panel_visible", "operator": "equal", "operand": true }
-		]
+	{ "keys": ["shift+enter"], "command": "hide_panel", "args": {"cancel": true}, "context":
+		[{ "key": "panel_visible", "operator": "equal", "operand": true }]
 	},
 	// fuzzy search text in view
 	{ "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 	// open last closed file
 	{ "keys": ["super+shift+o"], "command": "reopen_last_file" },
+	// select next match - using cmd-f instead of cmd-g
+	{ "keys": ["super+f"], "command": "find_under_expand_skip", "context":
+		[{ "key": "num_selections", "operator": "not_equal", "operand": 1 }]
+	},
 
 	// FILE MANAGMENT
 	{ "keys": ["super+n", "super+n"], "command": "advanced_new_file_new" },
 	{ "keys": ["super+k", "super+r"], "command": "advanced_new_file_move" },
+	{ "keys": ["super+k", "super+d"], "command": "advanced_new_file_delete", "args": {"current": true} },
 
 	// SETTINGS
 	{ "keys": ["super+,", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences (OSX).sublime-settings"} },
@@ -97,7 +99,7 @@
 	// ctrl-u: delete from cursor to beginning of line, not in default
 	{ "keys": ["ctrl+u"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
 	// cmd-k + cmd-d: duplicate line, originally Skip Current Selection
-	{ "keys": ["super+k", "super+d"], "command": "duplicate_line" },
+	{ "keys": ["super+g"], "command": "duplicate_line" },
 
 
 	// PANES & TABS
