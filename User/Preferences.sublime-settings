@@ -9,12 +9,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"GotoLastEdit",
-		"PHP",
+		"Emmet",
+		"AddCursors",
 		"Vintage",
 		"Emmet Css Snippets",
-		"Emmet",
-		"AddCursors"
+		"PHP"
 	],
 	"indent_guide_options":
 	[
