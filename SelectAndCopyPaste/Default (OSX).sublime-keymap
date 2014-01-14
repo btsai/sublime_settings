@@ -1,0 +1,3 @@
+[
+  { "keys": ["super+shift+c"], "command": "select_and_copy" },
+]
