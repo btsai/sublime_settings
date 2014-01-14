@@ -59,6 +59,7 @@
 	{ "keys": ["super+,", "super+k", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
 	{ "keys": ["super+,", "super+a"], "command": "open_file", "args": {"file": "${packages}/User/rails_project.sublime-completions"} },
 
+	{ "keys": ["super+k", "super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 
 	// SELECTION
 	// cmd-shift-d: find all matching selection, originally Duplicate Lines (ctrl+super+g)
