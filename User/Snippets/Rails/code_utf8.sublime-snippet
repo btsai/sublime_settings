@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[# -*- coding: utf-8 -*-]]></content>
+    <tabTrigger>codeutf</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>UTF8 code comment</description>
+</snippet>

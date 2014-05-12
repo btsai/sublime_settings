@@ -1,4 +1,5 @@
 {
     "completion_type": "nix",
     "vcs_management": true,
+    "append_extension_on_move": true,
 }

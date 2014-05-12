@@ -38,6 +38,10 @@
 	{ "keys": ["shift+enter"], "command": "hide_panel", "args": {"cancel": true}, "context":
 		[{ "key": "panel_visible", "operator": "equal", "operand": true }]
 	},
+	// toggle case sensitive in find
+	{ "keys": ["super+shift+c"], "command": "toggle_case_sensitive", "context":
+		[{ "key": "panel_visible", "operator": "equal", "operand": true }]
+	},
 	// fuzzy search text in view
 	{ "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 	// open last closed file
@@ -51,6 +55,7 @@
 	{ "keys": ["super+n", "super+n"], "command": "advanced_new_file_new" },
 	{ "keys": ["super+k", "super+r"], "command": "advanced_new_file_move" },
 	{ "keys": ["super+k", "super+d"], "command": "advanced_new_file_delete", "args": {"current": true} },
+	{ "keys": ["super+k", "super+s"], "command": "reveal_in_side_bar"},
 
 	// SETTINGS
 	{ "keys": ["super+,", "super+d"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences (OSX).sublime-settings"} },
@@ -73,9 +78,9 @@
 	{ "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 	// ctrl-/: toggle single line comment (same as cmd-/)
 	{ "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
-	// shift-ctrl-{: move line up
+	// shift-command-{: move line up
 	{ "keys": ["super+shift+{"], "command": "swap_line_up" },
-	// shift-ctrl-}: move line down
+	// shift-command-}: move line down
 	{ "keys": ["super+shift+}"], "command": "swap_line_down" },
 
 	// NAVIGATION
