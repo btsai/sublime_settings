@@ -1,8 +1,4 @@
 {
-	"GotoOpenFile":
-	{
-		"sort_views": true
-	},
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Monokai/Monokai.btsai.tmTheme",
@@ -13,12 +9,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Path Tools",
+		"Emmet Css Snippets",
 		"AddCursors",
 		"Emmet",
-		"Emmet Css Snippets",
-		"PHP",
-		"Vintage"
+		"Vintage",
+		"Path Tools",
+		"PHP"
 	],
 	"indent_guide_options":
 	[
