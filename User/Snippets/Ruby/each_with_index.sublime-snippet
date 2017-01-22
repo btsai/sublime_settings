@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+each_with_index do |${1:var}, index|
+  $2
+end
+]]></content>
+  <tabTrigger>eaw</tabTrigger>
+  <scope>source.ruby.rails,text.html.ruby</scope>
+  <description>each_with_index</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assert(json_response['${1:key}']${2:,
+  "Should ${3:}"})
+]]></content>
+    <tabTrigger>asj</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>assert(json_response)</description>
+</snippet>

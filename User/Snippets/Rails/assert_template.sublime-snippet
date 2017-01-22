@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+assert_template('${1:template_path}')
+]]></content>
+    <tabTrigger>astm</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>assert_template</description>
+</snippet>

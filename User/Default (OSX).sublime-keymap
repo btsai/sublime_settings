@@ -26,7 +26,7 @@
 	// cmd-t: goto symbol (original Goto Anything)
 	{ "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 	// cmd-shift-t: goto symbol in project (originally open last closed file)
-	{ "keys": ["super+shift+t"], "command": "goto_symbol_in_project" },
+	{ "keys": ["super+shift+t"], "command": "expand_selection", "args": {"to": "tag"} },
 	// f7+f8: open current file in new view in new page - can't get macros to run even though they show up in the macros menu
 	{ "keys": ["f7"], "command": "clone_file"},
 	{ "keys": ["f8"], "command": "new_pane"},
@@ -50,6 +50,8 @@
 	{ "keys": ["super+f"], "command": "find_under_expand_skip", "context":
 		[{ "key": "num_selections", "operator": "not_equal", "operand": 1 }]
 	},
+	// show list of open files
+	{ "keys": ["super+shift+k"], "command": "extended_switcher", "args": {"list_mode": "window"}},
 
 	// FILE MANAGMENT
 	{ "keys": ["super+n", "super+n"], "command": "advanced_new_file_new" },
@@ -64,6 +66,8 @@
 	{ "keys": ["super+,", "super+k", "super+u"], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
 	{ "keys": ["super+,", "super+a"], "command": "open_file", "args": {"file": "${packages}/User/rails_project.sublime-completions"} },
 
+	{ "keys": ["super+k", "super+f", "super+p"], "command": "side_bar_copy_path_absolute_from_project" },
+
 	{ "keys": ["super+k", "super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 
 	// SELECTION
@@ -71,6 +75,8 @@
 	{ "keys": ["super+shift+d"], "command": "find_all_under" },
 	// cmd-i: skip current selection, originally incremental find (to close find window after find)
 	{ "keys": ["super+i"], "command": "find_under_expand_skip" },
+	// shift-cmd-n: select to brackets, originally used for open new window, but we hardly ever do that
+	{ "keys": ["super+shift+n"], "command": "expand_selection", "args": {"to": "brackets"} },
 	// ctrl-right/left (+shift): amending it to move by "words" not "subwords"
 	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
 	{ "keys": ["ctrl+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
@@ -78,10 +84,6 @@
 	{ "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 	// ctrl-/: toggle single line comment (same as cmd-/)
 	{ "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
-	// shift-command-{: move line up
-	{ "keys": ["super+shift+{"], "command": "swap_line_up" },
-	// shift-command-}: move line down
-	{ "keys": ["super+shift+}"], "command": "swap_line_down" },
 
 	// NAVIGATION
 	// ctrl-g: scroll window to current cursor, original Goto Line (ctrl-l)
@@ -98,13 +100,19 @@
 	// alt up/down: move selected lines up/down, not in default
 	{ "keys": ["alt+up"], "command": "swap_line_up" },
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	// alt left/right: unindent/indent, not in default
+	{ "keys": ["alt+left"], "command": "unindent" },
+	{ "keys": ["alt+right"], "command": "indent" },
+	// shift + cmd left/right brackets: move line up and down, not in default, so you can move line up/down left right easier
+	// { "keys": ["shift+super+["], "command": "swap_line_up" },
+	// { "keys": ["shift+super+]"], "command": "swap_line_down" },
 	// ctrl-d: delete current line(s), not in default
 	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	// ctrl-k delete from cursor to end of line, same as default, here for reference
 	{ "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
-	// ctrl-u: delete from cursor to beginning of line, not in default
-	{ "keys": ["ctrl+u"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
-	// cmd-k + cmd-d: duplicate line, originally Skip Current Selection
+	// shift+ctrl-k: delete from cursor to beginning of line, not in default
+	{ "keys": ["shift+ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+	// cmd-g + cmd-d: duplicate line, originally Skip Current Selection
 	{ "keys": ["super+g"], "command": "duplicate_line" },
 
 

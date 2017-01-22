@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[update_attribute(:${1:attr}, ${2:val})]]></content>
+    <tabTrigger>upa</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>update_attribute</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ => ]]></content>
+    <tabTrigger>rr</tabTrigger>
+    <scope>source.ruby.rails,text.html.ruby</scope>
+    <description>rocket</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content>employee</content>
+  <tabTrigger>mm</tabTrigger>
+  <scope>source.ruby</scope>
+  <--description>employee</description>
+</snippet>

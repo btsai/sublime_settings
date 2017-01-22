@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<% ce ${1:something} %>
+]]></content>
+	<tabTrigger>ce</tabTrigger>
+  <scope>text.html.ruby</scope>
+	<description>rails ce</description>
+</snippet>
